@@ -41,7 +41,7 @@ One to denote all the user-interface like pedals, buttons, steering wheels etc (
 Another one to denote the actual car with all the implementations of these buttons (SportsCar' class).
  
 */
-class SportsCar : public Car {
+class SportsCar : public Car { 
 public:
     string brand;
     string model;
@@ -49,7 +49,7 @@ public:
     int currentSpeed;
     int currentGear;
 
-    SportsCar(string b, string m) {
+    SportsCar(string b, string m) { // construtor difining using sports car
         this->brand = b;
         this->model = m;
         isEngineOn = false;
